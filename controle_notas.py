@@ -1,8 +1,12 @@
 # python3 controle_notas.py
 nome = input ("Digite o seu nome: ")
-pergunta = int (input ("digite uma nota: "))
-pergunta2 = input ("deseja digitar outra nota? ")
+pergunta = input ("deseja digitar uma nota? ")
+nota = 0
 
-while pergunta2 == 'sim':
-    pergunta = int (input ("digite uma nota: "))
-    pergunta2 = input ("deseja digitar outra nota? ")
+while pergunta == 'sim':
+    pergunta2 = 0
+    pergunta2 = int (input ("digite uma nota: "))
+    nota = nota + pergunta2
+    pergunta = input ("deseja digitar outra nota? ")
+    
+print (f"Sua média é: {}")
