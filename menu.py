@@ -24,6 +24,10 @@ while True:
     print ("2 - Subtração")
     print ("3 - Multiplicação")
     print ("4 - Divisão")
+    print ("5 - Pares")
+    print ("6 - Ímpares")
+    print ("7 - Somatório")
+    print ("8 - Fatorial")
     print ("0 - Sair")
 
     opcao = input ("Escolha uma opção: ")
